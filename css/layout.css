@@ -58,6 +58,20 @@ a {
 	min-width: 100px;
 }
 
+.filterItem {
+	color:#fff;
+	margin: 0 0 10px 0;
+}
+
+.filterItem input[type=text] {
+	background-color: transparent;
+	padding: 5px;
+	border: 0;
+	border-bottom: 1px solid #DE8738;
+	color:#fff;
+	width: 50px;
+}
+
 /*
  * top
  */
@@ -230,7 +244,7 @@ a {
 .leftBox {
 	
 	position:absolute;
-	left: 0px;
+	left: -320px;
 	top: 80px;
 	
 	
