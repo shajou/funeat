@@ -1,0 +1,195 @@
+
+
+.resBox {
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+}
+
+.resContent {
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	box-shadow: 0px 0px 6px #ccc;
+	background-color:#fff;
+	position: relative;
+}
+
+.resImg {
+	position : absolute;
+	top: 20px;
+	left: 20px;
+	width: 150px;
+	height: 150px;
+	
+	overflow: hidden;
+	z-index: 1000;
+	box-shadow: 1px 2px 2px #999;
+}
+
+.resImg img {
+	min-width: 150px;
+	
+}
+
+.resTitle {
+	position : absolute;
+	z-index: 999;
+	
+	width: 560px;
+	padding: 20px 0 20px 290px;
+	
+	top: 60px;
+	left: -25px;
+	color:#fff;
+	
+	background-color:#55C1DE;
+	border-top: 1px solid #28aed0;
+	border-bottom: 1px solid #28aed0;
+	
+	font-size: 32px;
+	
+	box-shadow: 0px 2px 1px #aaa;
+}
+
+/**
+ * 	arrow 
+ */
+
+.arrowLeft {
+	position : absolute;
+	background: url(../img/res_title-01.png) no-repeat;
+	
+	width: 25px;
+	height: 25px;
+}
+
+.arrowRight {
+	position : absolute;
+	background: url(../img/res_title-02.png) no-repeat;
+	
+	width: 25px;
+	height: 25px;
+}
+
+.localTitleArrowLeft {
+	left: -25px;
+	top: 140px;
+	
+	z-index: 998;
+}
+
+.localTitleArrowRight {
+	right: -25px;
+	top: 140px;
+	
+	z-index: 998;
+}
+
+/**
+ * 	gallery
+ */
+
+.resGalleryBox {
+	width: 850px;
+	height: 400px;
+	
+	position: absolute;
+	z-index: 1000;
+	left: -25px;
+	
+	box-shadow: 0px 2px 2px  #666;
+}
+
+.galleryArrowLeft {
+	left: -25px;
+	top: 621px;
+	
+	z-index: 998;
+}
+
+.galleryArrowRight {
+	right: -25px;
+	top: 621px;
+	
+	z-index: 998;
+}
+
+/**
+ * 	resInfoBox
+ */
+
+.resDescBox {
+	margin : 0px 0;
+	
+	padding: 20px 0;
+	
+}
+
+.resInfoBox {
+	padding: 20px;
+	
+	float:left;
+	min-height: 200px;
+}
+
+.resInfoItem {
+	padding: 5px 0;
+}
+
+.resServiceBox {
+	position : absolute;
+	margin: 20px 0;
+	right: -25px;
+	
+	background-color:#fff;
+	border: 1px solid #e0e0e0;
+	width: 240px;
+	height: 200px;
+	
+	z-index: 1000;
+	
+	box-shadow: 0px 2px 4px #ccc;
+}
+
+.descArrowRight {
+	right: -25px;
+	top: 862px;
+	
+	z-index: 998;
+}
+
+/**
+ * 	res map
+ */
+
+.resMapBox {
+	height: 400px;
+	width: 100%;
+	
+	position:relative;
+}
+
+.resMapTopShadow {
+	position:absolute;
+	top:0;
+	
+	left: 0;
+	width: 100%;
+	height: 5px;
+	box-shadow: 0px 2px 2px #ccc;
+	background-color:#fff;
+	z-index: 1000;
+}
+
+.resMapBottomShadow {
+	position:absolute;
+	z-index: 1000;
+	width: 100%;
+	height: 5px;
+	bottom:0;
+	left: 0;
+	background-color:#fff;
+	box-shadow: 0px -2px 2px #ccc;
+}
