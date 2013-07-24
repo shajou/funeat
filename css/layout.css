@@ -35,6 +35,11 @@ a {
 	float: right;
 }
 
+.left {
+	float: left;
+}
+
+
 /**
  * 	layout
  */
@@ -197,3 +202,15 @@ a {
 	box-shadow: 0px 2px 1px #ccc;
 }
 
+/**
+ * 	footer
+ */
+
+.footer {
+	text-align: center;
+	font-size: 15px;
+	color:#666;
+	padding: 20px 0;
+	
+	font-family: Arial;
+}
