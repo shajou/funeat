@@ -47,7 +47,7 @@
 	position: absolute;
 	left: 60px;
 	top: 0;
-	color:#fff;
+	color:#666;
 }
 
 .searchBtn {
@@ -109,14 +109,14 @@
 	position: absolute;
 	
 	right: 10px;
-	top: 25px;
+	top: 20px;
 	font-size: 13px;
 }
 
 .quickItem {
 	float:right;
 	padding: 5px 15px;
-	border-left: 1px solid #666;
+	border-left: 1px solid #e7e7e7;
 	color:#fff;
 }
 
@@ -126,6 +126,22 @@
 
 .quickItem:last-child {
 	border-left: 0;
+}
+
+.registerBtn {
+	background-image: url(../img/register.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 30px;
+}
+
+.loginBtn {
+	background-image: url(../img/login.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 30px;
 }
 
 /**
