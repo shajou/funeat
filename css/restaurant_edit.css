@@ -1,0 +1,67 @@
+
+.resEditBox {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 111px 0 0 0;
+	background-color:#fff;
+	box-shadow: 0px 2px 2px #ccc;
+}
+
+
+.resEditTitle {
+	padding: 20px 10px;
+	margin: 0 0 20px 0;
+	
+	color:#5a9ee9;
+	font-size: 40px;
+	
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.resEditMenu {
+	
+}
+
+.resEditItem {
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.resEditLabel {
+	font-size: 24px;
+	color:#666;
+	margin: 10px 0;
+	float:left;
+	width: 480px;
+}
+
+.resEditInput {
+	margin: 10px 0;
+	
+	float:left;
+	width: 522px;
+}
+
+.resEditInput input[type=text] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	width: 500px;
+}
+
+.resEditMap {
+	float:left;
+	height: 400px;
+	width: 500px;
+}
+
+.resEditContainer {
+	width: 530px;
+	float:left;
+}
+
+.resEditHelp {
+	float:right;
+	width: 400px;
+}
+
+
