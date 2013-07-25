@@ -176,18 +176,36 @@
  * 	resLikeBtn
  */
 
+.resLikeBtnBox {
+	padding: 4px;
+	border-radius: 50px;
+	
+	float:left;
+	background: rgb(232,232,232); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(232,232,232,1) 0%, rgba(249,249,249,1) 77%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232,232,232,1)), color-stop(77%,rgba(249,249,249,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(249,249,249,1) 77%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(249,249,249,1) 77%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(249,249,249,1) 77%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(232,232,232,1) 0%,rgba(249,249,249,1) 77%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
 .resLikeBtn {
-	padding: 5px 15px;
+	padding: 8px 8px;
+	width: 22px;
+	height: 22px;
 	text-align: center;
 	font-size: 18px;
 	
+	border-radius: 50px;
 	
 	box-shadow: 0px 2px 1px #ccc;
 	color:#5a9ee9;
 	float:left;
 	cursor: pointer;
 	
-	border: 1px solid #e8e8e8;
 	
 	background: rgb(255,255,255); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%); /* FF3.6+ */
@@ -215,7 +233,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', end
 .resLikeCount {
 	color:#5a9ee9;
 	float:left;
+	font-size: 32px;
 	padding: 5px 10px;
+	font-family: 'ABeeZee', sans-serif;
 }
 
 /**
@@ -248,8 +268,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', end
 	height: 5px;
 	bottom:0;
 	left: 0;
-	background-color:#fff;
+	background-color:#f3f3f3;
 	box-shadow: 0px -2px 3px #aaa;
+}
+
+.otherStoreBox {
+	background-color:#f5f5f5;
+	padding: 10px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.otherStoreBtn {
+	background-color:#fff;
+	border: 1px solid #e0e0e0;
+	padding: 5px 15px;
+	color:#666;
+	float:right;
+	cursor: pointer;
+	box-shadow: 0px 2px 1px #ccc;
+}
+
+.otherStoreBtn:hover {
+	border: 1px solid #5a9ee9;
+	color:#5a9ee9;
 }
 
 /**
