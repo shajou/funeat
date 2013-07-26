@@ -30,7 +30,7 @@
 	float:left;
 	width: 120px;
 	color:#000;
-	font-size: 16px;
+	font-size: 20px;
 	
 	margin: 10px;
 	border-right: 1px solid #e0e0e0;
@@ -69,7 +69,7 @@
 
 .resEditHelp {
 	color:#666;
-	font-size: 13px;
+	font-size: 11px;
 	padding: 10px;
 	border-bottom: 1px solid #e0e0e0;
 	background-color:#f9f9f9;
@@ -250,4 +250,13 @@ background: -ms-linear-gradient(top,  rgba(150,0,15,1) 0%,rgba(201,4,27,1) 100%)
 background: linear-gradient(to bottom,  rgba(150,0,15,1) 0%,rgba(201,4,27,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96000f', endColorstr='#c9041b',GradientType=0 ); /* IE6-9 */
 
+}
+
+/**
+ * 	serivce
+ */
+
+.resServiceItem {
+	float:left;
+	margin: 5px;
 }

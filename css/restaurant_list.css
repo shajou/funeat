@@ -1,5 +1,5 @@
 .resListBox {
-	width: 1000px;
+	width: 1020px;
 	margin: 0 auto;
 	padding: 111px 0 0 0;
 }
@@ -12,6 +12,7 @@
 	background-color:#fff;
 	box-shadow: 0px 2px 1px #ccc;
 	padding: 10px;
+	margin: 0 10px;
 }
 
 .myLocationItem {
